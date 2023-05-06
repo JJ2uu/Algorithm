@@ -31,7 +31,7 @@ public class 제일작은수제거하기2 {
 			}
 		}
 
-		System.out.println(Arrays.toString(answer));
+		return answer;
 	}
 
 }
