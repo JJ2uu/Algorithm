@@ -12,7 +12,7 @@ public class 큰수만들기 {
 
 }
 
-class Solution24 {
+class Solution {
     public String solution(String number, int k) {
     	String answer = "";
         StringBuilder sb = new StringBuilder();
