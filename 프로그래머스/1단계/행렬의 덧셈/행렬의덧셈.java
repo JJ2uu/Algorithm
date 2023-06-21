@@ -6,7 +6,7 @@ public class 행렬의덧셈 {
 		int[][] arr1 = {{1}, {2}};
 		int[][] arr2 = {{3}, {4}};
 
-							// arr1의 행의 개수   arr1[0] 열의 개수
+		// arr1의 행의 개수   arr1[0] 열의 개수
 		int[][] answer = new int[arr1.length][arr1[0].length];
 
 		
