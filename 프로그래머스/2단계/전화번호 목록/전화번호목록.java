@@ -25,12 +25,12 @@ class Solution11 {
 		}
     	
     	for (String x : phone_book) {
-			for (int i = 1; i < x.length(); i++) {
-				if (map.containsKey(x.substring(0, i))) {
-					answer = false;
-				}
+		for (int i = 1; i < x.length(); i++) {
+			if (map.containsKey(x.substring(0, i))) {
+				answer = false;
 			}
 		}
+	}
     	
         return answer;
     }
