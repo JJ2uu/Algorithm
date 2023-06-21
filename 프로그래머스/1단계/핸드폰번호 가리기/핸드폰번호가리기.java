@@ -25,22 +25,6 @@ public class 핸드폰번호가리기 {
 		}
 
 		System.out.println(answer);
-		
-		
-		/* 다른 사람 풀이
-		 * char[] ch = phone_number.toCharArray();
-     		for(int i = 0; i < ch.length - 4; i ++){
-         		ch[i] = '*';
-     		}
-     		return String.valueOf(ch);
-		 */
-		
-		/*
-		 * for (int i=0; i < phone_number.length()-4; i++) {
-		 * 	answer += "*";
-		 * }
-		 * answer += phone_number.substring(phone_number.length()-4);
-		 * */
 	}
 
 }
