@@ -15,7 +15,7 @@ class Solution21 {
     public int solution(int[] arr) {
         int answer = arr[0]; // 첫 번째 값을 고정하여
 
-		// for문을 통해 최소공배수를 업데이트 해주며 다음 N번 째 값과의 최소공배수를 구함
+	// for문을 통해 최소공배수를 업데이트 해주며 다음 N번 째 값과의 최소공배수를 구함
         for (int i = 1; i < arr.length; i++) {
                 answer = lcm(answer, arr[i]);
         }
