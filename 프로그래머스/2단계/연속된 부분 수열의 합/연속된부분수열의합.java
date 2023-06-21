@@ -22,23 +22,23 @@ class Solution22 {
         int minRange = Integer.MAX_VALUE;
         int sum = 0;
     	while (true) {
-			if (sum > k) {
-				sum -= sequence[left];
-				left++;
-			} else if (right >= sequence.length) {
-				break;
-			} else {
-                sum += sequence[right++];
-            }
+		if (sum > k) {
+			sum -= sequence[left];
+			left++;
+		} else if (right >= sequence.length) {
+			break;
+		} else {
+       		sum += sequence[right++];
+        	}
 			
-			if (sum == k) {
-				if(minRange > right-left) {
-                    minRange = right-left;
-                    answer[0] = left;
-                    answer[1] = right - 1;
-                }
-			}
+		if (sum == k) {
+			if(minRange > right-left) {
+                   		 minRange = right-left;
+                    		answer[0] = left;
+                    		answer[1] = right - 1;
+                	}
 		}
+	}
         return answer;
     }
 }
