@@ -7,14 +7,16 @@ public class Main {
 		int h = sc.nextInt();
 		int m = sc.nextInt();
 		int c = sc.nextInt();
-		sc.close();
 		
-		int min = 60 * h + m;
-		min += c;
-		
-		int hour = (min/60) % 24;
-		int minute = min % 60;
-		
-		System.out.println(hour + " " + minute);
+		if (m+c >= 60) {
+			h += (m+c)/60;
+			m = (m+c)%60;
+			if (h > 23) {
+				h = h % 24;
+			}
+			System.out.println(h + " " + m);
+		} else {
+			System.out.println(h + " " + (m+c));
+		}
 	}
 }
