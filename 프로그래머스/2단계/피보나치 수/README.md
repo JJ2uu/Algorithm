@@ -37,5 +37,7 @@ n | return
 
 힌트가 필요한가요? [코딩테스트 연습 힌트 모음집]으로 오세요! → [클릭](https://school.programmers.co.kr/learn/courses/14743?itm_content=lesson12945)
 
+---
+
 ### 문제 풀이
 모든 단계에서 % 연산을 사용해야한다.
